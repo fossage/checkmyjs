@@ -1,6 +1,6 @@
 {
   "name": "checkmyjs",
-  "version": "0.0.9",
+  "version": "0.0.91",
   "description": "A programatic, JS code linter and error fixer",
   "main": "index.js",
   "scripts": {

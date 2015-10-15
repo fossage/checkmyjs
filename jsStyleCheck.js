@@ -94,6 +94,7 @@ for (var i = 0; i < filePaths.length; i += 1) {
     } else {
       console.log(clc.greenBright('No lintable errors!  ' + clc.yellowBright('d=(´▽ `)=b\n')));
     }
+  // if no autofix flag is present, just run the linter and report the errors
   } else {
     if (lintErrors.length > 0){
       exitCode = 1;
