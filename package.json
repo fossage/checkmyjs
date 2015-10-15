@@ -21,6 +21,7 @@
   "homepage": "https://github.com/fossage/Js-Style-Check#readme",
   "dependencies": {
     "cli-color": "^1.1.0",
+    "commander": "^2.9.0",
     "fixmyjs": "^1.0.3",
     "jscs": "^2.3.0",
     "jshint": "^2.8.0"
