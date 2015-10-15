@@ -1,0 +1,21 @@
+{
+    "esnext": true,
+    "disallowQuotedKeysInObjects": true,
+    "disallowYodaConditions": true,
+    "disallowKeywords": [ "with" ],
+    "disallowKeywordsOnNewLine": ["else"],
+    "disallowMultipleLineStrings": true,
+    "disallowMultipleVarDecl": true,
+    "requireParenthesesAroundIIFE": true,
+    "requireCommaBeforeLineBreak": true,
+    "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+    "requireCapitalizedConstructors": true,
+    "requireDotNotation": true,
+    "requireCurlyBraces": [
+        "do"
+    ],
+    "requireSemicolons": true,
+    "safeContextKeyword": "_this",
+    "validateLineBreaks": "LF",
+    "validateQuoteMarks": "'"
+}

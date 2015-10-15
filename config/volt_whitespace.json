@@ -1,0 +1,71 @@
+{
+    "esnext": true,
+    "maxErrors": -1,
+    "disallowSpacesInNamedFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true
+    },
+    "disallowEmptyBlocks": true,
+    "disallowSpacesInCallExpression": true,
+    "disallowSpacesInsideArrayBrackets": true,
+    "disallowSpacesInsideParentheses": true,
+    "disallowSpaceAfterObjectKeys": true,
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "disallowSpaceBeforePostfixUnaryOperators": true,
+    "disallowSpaceBeforeBinaryOperators": [
+        ","
+    ],
+    "disallowMixedSpacesAndTabs": true,
+    "disallowTrailingWhitespace": true,
+    "disallowSpaceBeforeComma": true,
+    "requireSpaceAfterComma": true,
+    "disallowKeywordsOnNewLine": ["else"],
+    "disallowMultipleLineBreaks": true,
+    "disallowMultipleLineStrings": true,
+    "disallowSpaceBeforeComma": true,
+    "disallowSpaceBeforeSemicolon": true,
+    "requireSpaceBeforeBlockStatements": true,
+    "requireSpacesInConditionalExpression": true,
+    "requireBlocksOnNewline": {
+      "minLines": 1,
+      "includeComments": true
+    },
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceAfterBinaryOperators": true,
+    "requireLineFeedAtFileEnd": true,
+    "requireSpacesInForStatement": true,
+    "requireSpaceBetweenArguments": true,
+    "requireSpaceAfterKeywords": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "switch",
+        "case",
+        "return",
+        "try",
+        "catch",
+        "typeof"
+    ],
+    "requirePaddingNewlinesBeforeKeywords": [
+      "do",
+      "for",
+      "if",
+      "while"
+    ],
+    "requirePaddingNewLinesBeforeLineComments": {
+        "allExcept": "firstAfterCurly"
+    },
+    "requirePaddingNewLinesAfterBlocks": true,
+    "validateLineBreaks": "LF",
+    "validateIndentation": 2
+}
