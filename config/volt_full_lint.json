@@ -71,7 +71,7 @@
     "disallowMultipleVarDecl": true,
     "requireParenthesesAroundIIFE": true,
     "requireCommaBeforeLineBreak": true,
-    "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+    "requireCamelCaseOrUpperCaseIdentifiers": true,
     "requireCapitalizedConstructors": true,
     "requireDotNotation": true,
     "requireCurlyBraces": [

@@ -9,7 +9,8 @@ var program = require('commander');
 var checker = new JSCS();
 
 program
-  .version('0.0.9')
+  .version('0.0.93')
+  .usage('<filepath or glob pattern> [options]')
   .option('-f, --fix', 'autofix javascript during linting')
   .option('-w, --whitespace', 'only lint for whitespace')
   .parse(process.argv);
@@ -100,6 +101,15 @@ for (var i = 0; i < program.args.length; i += 1) {
     } else {
       console.log(clc.greenBright('No lintable errors!  ' + clc.yellowBright('d=(´▽ `)=b\n')));
     }
+  }
+}
+
+if (lintErrors.length > 0) {
+      exitCode = 1;
+  for (var j = 0; j < lintErrors.length; j += 1) {
+    var colorizedOutput = true;
+    console.log(clc.green('Linter found errors ----------------'));
+    console.log(linted.explainError(lintErrors[j], colorizedOutput) + '\n');
   }
 }
 
